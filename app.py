@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Load model
-model = tf.keras.models.load_model("/content/rice_leaf_disease_model.h5")
+model = tf.keras.models.load_model("rice_leaf_disease_model.h5")
 class_names = ["Leaf smut", "Brown spot", "Bacterial leaf blight"]
 
 st.title("🌾 Rice Leaf Disease Detection")
